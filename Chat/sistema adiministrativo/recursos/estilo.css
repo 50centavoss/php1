@@ -1,0 +1,68 @@
+.painel{
+    width: 500px;
+    margin: 2px auto;
+    box-shadow: 2px 2px 10px; 
+    border-radius: 10px;
+    padding: 20px;
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 100;
+    background-color: rgb(53, 92, 197);
+    color: white;
+}
+.login{
+    text-align: center;
+}
+.usuario{
+    font-size: 100px;  
+    padding-left: 190px;
+}
+.menu{
+    background-color: rgba(36, 33, 209, 0.719);
+    min-width: 250px;
+    color: white;
+    height: 100vh;
+    list-style: none;
+}
+
+@media (max-width: 768px){
+    .menu{
+        display: none;
+    }
+}
+
+.item{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10PX;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+.item:hover{
+    background-color: rgb(35, 51, 85);
+    transition: 600ms;
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+
+} 
+.cartao{
+    box-shadow: 2px 2px 2px black;
+    margin: 10px;
+    border-radius: 10px;
+    padding:10px;
+}
+.cartao:hover{
+    background-color: aliceblue;
+    transition: 1s;
+}
